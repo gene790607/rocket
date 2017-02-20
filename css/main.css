@@ -1,0 +1,47 @@
+@charset "UTF-8";
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 微軟正黑體;
+}
+
+#stage {
+  background: url("../img/bg.jpg");
+  background-size: cover;
+  display: inline-block;
+  text-align: left;
+  top: 50px;
+  width: 400px;
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 10px;
+}
+
+.sprite {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.player {
+  background: url("../img/fly.png");
+  background-size: cover;
+}
+
+.enemy {
+  background: url("../img/enemy.png");
+  background-size: cover;
+  color: white;
+}
+
+.score {
+  color: white;
+  font-weight: bolder;
+  width: 100%;
+  height: auto;
+  text-align: right;
+  z-index: 9999;
+  font-size: 45px;
+}
